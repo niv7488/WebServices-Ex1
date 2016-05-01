@@ -1,0 +1,38 @@
+[
+    {
+        "Id": "1",
+        "name": "Victor",
+        "grade": 95,
+        "year": "2015"
+    },
+    {
+        "Id": "2",
+        "name": "Eyal",
+        "grade": 92,
+        "year": "2016"
+    },
+    {
+        "Id": "3",
+        "name": "Livne",
+        "grade": 94,
+        "year": "2015"
+    },
+    {
+        "Id": "4",
+        "name": "Guy",
+        "grade": 85,
+        "year": "2013"
+    },
+    {
+        "Id": "5",
+        "name": "Uriel",
+        "grade": 95,
+        "year": "2017"
+    },
+    {
+        "Id": "6",
+        "name": "Tal",
+        "grade": 85,
+        "year": "2016"
+    }
+]

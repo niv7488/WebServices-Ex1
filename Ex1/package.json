@@ -1,0 +1,16 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Ex1 - Ws",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "niv",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.12.0",
+    "node-array": "^0.0.7"
+  },
+  "devDependencies": {}
+}
