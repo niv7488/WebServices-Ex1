@@ -9,6 +9,7 @@
   "author": "niv",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.13.4",
     "moment": "^2.12.0",
     "node-array": "^0.0.7"
   },
