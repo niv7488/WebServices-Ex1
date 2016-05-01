@@ -12,7 +12,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/', function(req,res) {
     res.send('There are 3 functions : 1) getStudentGradeById - that bring us json of choosen studend by id'+
     ' :in the query string we will add getStudentGradeById?id=(and wanted id number)'+
-    'and the returned value will be json with the detailes of that student \n');
+    'and the returned value will be json with the detailes of that student \n'+
+    '2)getAllEcxellenceStudents - that by adding getAllEcxellenceStudents line '+
+    'in the query it will bring us all the students with grades above 90');
 });
 
 app.get('/getStudentGradeById', function(req,res) {
