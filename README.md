@@ -17,7 +17,7 @@ If the id is not exist - the following massage will appear : Error : Student Not
  There Is no student with that Id - Check Your JSON, printed in the console.
 the direct link: http://webservices-ex1.herokuapp.com/getStudentGradeById?id=3
 
-3) Get Excellence Students by a specific year index -
+3) Get Excellence Students by a specific year index -getAllEcxellenceStudentsByYear
 this function returned value is an array of JSONs with the details of students that have a grade above 90 in a specific year.
 you will need to add ?year=2015 (the number 2015 is just for example) right after the name of the function in the query 
 pay attention to NOT use capital letters or spaces.
