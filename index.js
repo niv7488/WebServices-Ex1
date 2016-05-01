@@ -9,6 +9,9 @@ var port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.get('/', function(req,res) {
+    res.send('There are 3 functions : \n ');
+});
 
 app.get('/getStudentGradeById', function(req,res) {
     var urlPart = url.parse(req.url, true);
