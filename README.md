@@ -1,6 +1,6 @@
 Root index - This is basically the welcome page - http://webservices-ex1.herokuapp.com/
 
-There are 3 function :
+There are 3 functions :
 
 1) Get all Excellence student index - getAllEcxellenceStudents
 this function returned value is an array of JSONs with the details of students that have a grade above 90.
