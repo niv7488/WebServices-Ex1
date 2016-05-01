@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/getStudentGradeById', function(req,res) {
     var urlPart = url.parse(req.url, true);
     var query = urlPart.query;
-    var qname = query.Id;
+    var qname = query.id;
     var student = students_module.GetStudent(qname);
     if(student != null) {
         console.log('Id = ' + student.Id + ' : ' + 'The Student ' + student.name + "'s Grade is : " + student.grade);
