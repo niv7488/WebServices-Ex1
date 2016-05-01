@@ -10,7 +10,7 @@ var port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/', function(req,res) {
-    res.send('There are 3 functions : 1) getStudentGradeById,getAllEcxellenceStudents,getAllEcxellenceStudentsByYear - view the API for more info \n');
+    res.send('There are 3 functions : 1) getStudentGradeById, getAllEcxellenceStudents, getAllEcxellenceStudentsByYear - view the API for more info \n');
 });
 
 app.get('/getStudentGradeById', function(req,res) {
