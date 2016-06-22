@@ -26,7 +26,8 @@ app.get('/getStudentGradeById', function(req,res) {
     var student = students_module.GetStudent(qname);
     if(student != null) {
         console.log('Id = ' + student.Id + ' : ' + 'The Student ' + student.name + "'s Grade is : " + student.grade);
-        res.json('Id = ' + student.Id + ' : ' + 'The Student ' + student.name + "'s Grade is : " + student.grade);
+        // res.json('Id = ' + student.Id + ' : ' + 'The Student ' + student.name + "'s Grade is : " + student.grade);
+        res.json(student);
     } else {
         res.send('<!doctype html><html><head></head><body><h1>Error : Student Not Found</h1></body></html>');
         console.log('There Is no studentd with that Id - Check Your JSON');            
